@@ -8,9 +8,9 @@ namespace Ticketwise.API.Controllers
     {
         [HttpGet]
 
-        public OkResult GetHealthCheck()
+        public ActionResult GetHealthCheck()
         {
-            return Ok();
+            return Ok("TicketWise API Health is working fine");
         }
     }
 }
