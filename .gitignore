@@ -22,6 +22,8 @@ ml/data/raw/
 ml/data/processed/
 ml/models/*.pkl
 ml/models/*.h5
+data/
+*.csv
 
 # OS / Editor
 .DS_Store
